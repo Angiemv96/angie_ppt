@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:darkviolet ;
+}
+
+.card1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 16px;
+
+    .title{
+        color: #fff;
+    }
+
+    .hr{
+        width: 1200px;
+    }
+}
+
+.buttonOne{
+    width: 80px;
+    height: 30px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: 0;
+    transition: transform 0.3s ease;
+}
+
+.buttonOne:hover{
+    transform: translateY(4px);
+}
+
+.img{
+    display: flex;
+    border: solid black;
+    background-color: darkgrey;
+    border-radius: 20px;
+    width: 70px;
+    height: 70px;
+    margin: 20px;
+}
+
+.container1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img2{
+    display: flex;
+}
+
+.img2 >.img {
+    cursor: pointer;
+}
+
+.container1>.img {
+    cursor: pointer;
+}
+
+
+.container2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid black;
+    height: 30px;
+    width: 30px;
+    background-color: darkgrey;
+    margin-top: 10px;
+}
+
+.containerBloks{
+    display: flex;
+    border: solid black;
+    background-color: purple;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-left: 80px;
+    margin-right: 80px;
+
+}
+
+
+
+.card3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.choice{
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    align-items: center;
+}
